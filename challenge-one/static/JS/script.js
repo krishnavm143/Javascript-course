@@ -10,3 +10,12 @@ function clickCheck(){
 function reset(){
     document.querySelector("#ageOutput").remove();
 }
+function catGenerator(){
+    var catButton=document.querySelector(".btn btn-success");
+    var img=document.createElement("img");
+    var div=document.querySelector(".flex-box-container-2")
+    img.src="http://thecatapi.com/api/images/get?format=src&type=gif";
+    div.appendChild(img);
+//     img.style.width="150px";
+//     img.style.height="150px"
+}
